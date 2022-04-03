@@ -128,9 +128,3 @@ struct HomeView_Previews: PreviewProvider {
         HomeView()
     }
 }
-
-
-
-//            .onTapGesture {
-//                self.endTextEditing()
-//            }

@@ -235,13 +235,14 @@ extension Tracking_Details: Identifiable {
 
 struct FinalTrackingDetail: Identifiable, Equatable {
     static func == (lhs: FinalTrackingDetail, rhs: FinalTrackingDetail) -> Bool {
-        return lhs == rhs ? true : false
+        return lhs == rhs
+        
     }
-    
+
     static func != (lhs: FinalTrackingDetail, rhs: FinalTrackingDetail) -> Bool {
-        return lhs != rhs ? true : false
+        return lhs != rhs
     }
-    
+
     var trackingDetail: Tracking_Details
     var localDateTime: Date
     var id: UUID

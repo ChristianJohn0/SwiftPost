@@ -15,7 +15,8 @@ struct SwiftPostApp: App {
         WindowGroup {
 //            ContentView()
 //                .environment(\.managedObjectContext, persistenceController.container.viewContext)
-            HomeView().environment(\.managedObjectContext, persistenceController.container.viewContext)
+//            HomeView().environment(\.managedObjectContext, persistenceController.container.viewContext)
+            DeliveryDetailSwiftUIView(code: "955110620106", service: DeliveryService.FedEx).environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

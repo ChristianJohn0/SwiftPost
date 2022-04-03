@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAB7346827F7BA0F00F9F28A /* DeliveryDetailSwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB7346727F7BA0F00F9F28A /* DeliveryDetailSwiftUIView.swift */; };
 		AAD97BC9263FC80600A5C6F2 /* SwiftPostApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD97BC8263FC80600A5C6F2 /* SwiftPostApp.swift */; };
 		AAD97BCB263FC80600A5C6F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD97BCA263FC80600A5C6F2 /* ContentView.swift */; };
 		AAD97BCD263FC80700A5C6F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAD97BCC263FC80700A5C6F2 /* Assets.xcassets */; };
@@ -24,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AAB7346727F7BA0F00F9F28A /* DeliveryDetailSwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryDetailSwiftUIView.swift; sourceTree = "<group>"; };
+		AAB7346927F907B300F9F28A /* AppPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = AppPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		AAD97BC5263FC80600A5C6F2 /* SwiftPost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftPost.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAD97BC8263FC80600A5C6F2 /* SwiftPostApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPostApp.swift; sourceTree = "<group>"; };
 		AAD97BCA263FC80600A5C6F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -76,6 +79,7 @@
 				AAD97BC8263FC80600A5C6F2 /* SwiftPostApp.swift */,
 				AAD97BDC263FCE2200A5C6F2 /* HomeView.swift */,
 				AAD97BDE263FCEAD00A5C6F2 /* DeliveryDetailView.swift */,
+				AAB7346727F7BA0F00F9F28A /* DeliveryDetailSwiftUIView.swift */,
 				AAD97BE0263FCED200A5C6F2 /* DeliveryProgressView.swift */,
 				AAD97BED2641DDF000A5C6F2 /* Playground */,
 				AAD97BCC263FC80700A5C6F2 /* Assets.xcassets */,
@@ -111,6 +115,7 @@
 			children = (
 				AAD97BCA263FC80600A5C6F2 /* ContentView.swift */,
 				AAD97BEB2640978A00A5C6F2 /* TestingView.swift */,
+				AAB7346927F907B300F9F28A /* AppPlayground.playground */,
 			);
 			path = Playground;
 			sourceTree = "<group>";
@@ -187,6 +192,7 @@
 				AAD97BD2263FC80700A5C6F2 /* Persistence.swift in Sources */,
 				AAD97BE8263FCF7500A5C6F2 /* TrackerAPI.swift in Sources */,
 				AAD97BD5263FC80700A5C6F2 /* SwiftPost.xcdatamodeld in Sources */,
+				AAB7346827F7BA0F00F9F28A /* DeliveryDetailSwiftUIView.swift in Sources */,
 				AAD97BE1263FCED200A5C6F2 /* DeliveryProgressView.swift in Sources */,
 				AAD97BCB263FC80600A5C6F2 /* ContentView.swift in Sources */,
 				AAD97BEC2640978A00A5C6F2 /* TestingView.swift in Sources */,
